@@ -1,0 +1,195 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Roboto-Regular;
+
+}
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+nav{
+    margin: 30px auto 86px;
+    width: 1000px;
+    
+
+}
+nav div{
+    width: 100%;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+nav img {
+    width: 35px;
+    height: 42px;
+
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+nav ul a {
+    color: #666666;
+    text-decoration: none;
+}
+.a-top{
+    cursor: pointer;
+    border-bottom: 1px solid #333333;
+}
+header {
+    height: 567;
+    display: flex;
+    align-items: center;
+    margin:0px auto 68px ;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    
+}
+header section{
+    /* padding-left: 100px; */
+    margin-right: 245px;
+}
+header section h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+header section p {
+    color: #777777;
+    width: 450px;
+    font-size: 18px;
+border-left: 1px solid #777777;
+padding: 40px;
+margin-bottom: 30px;
+}
+button{
+    box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+} 
+button:hover{
+    background-color:#eb675e;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+header img { 
+    /* border: 4px solid #333333; */
+    height: 565px;
+    margin-right: 0px;
+}
+main{
+    margin-bottom: 70px;
+}
+.div_top {
+    width: 1000px;
+    display: flex;
+    margin: 0px auto 70px;
+}
+.div_top ul {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none; 
+    width: 1250px;
+    gap: 80px;
+    position: relative;
+
+}
+.div_top ul li{
+    width: 280px;
+
+}
+.div_top ul li h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #222222;
+}
+.div_top ul li p {
+    font-size: 15px;
+    color: #333333;
+    margin-bottom: 20px;
+
+}
+.div_top ul li b {
+    color: #ddd;
+    font-size: 80px;
+position: absolute;
+bottom: 2px;
+}
+.div_top ul li a {
+    text-decoration: none;
+    color: #EA625C;
+}
+.div-bottom {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 0px auto ;
+}
+.div-bottom section  h1{
+    font-size: 50px;
+    width: 380px;
+    margin-bottom: 30px;
+
+
+}
+.div-bottom section p {
+    color: #777777;
+    width: 450px;
+    font-size: 18px;
+border-left: 1px solid #777777;
+padding: 40px;
+margin-bottom: 30px;
+}
+footer {
+    background-image: url(./img/runners\ 1.jpg);
+    width: 1000px;
+    height: 630px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    margin: 0px auto 30px;
+position: relative;
+}
+footer section {
+    position: absolute;
+    color: white;
+    width: 490px;margin-right: 0px;
+    /* border: 2px solid wheat; */
+    top: 120px;
+    right: 125px;
+
+
+}
+footer section h2{
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+footer section p{
+    color: #ffffff;
+    width: 450px;
+    font-size: 18px;
+border-left: 1px solid #777777;
+padding: 40px;
+margin-bottom: 30px;
+}
+
+
+
